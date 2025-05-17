@@ -1,0 +1,1084 @@
+[
+    {
+      "utilisateur": {
+        "id": "u001",
+        "age": 28,
+        "ville": "Tunis",
+        "interets": ["cinéma", "gastronomie", "musique"]
+      },
+      "messages": [
+        "Y a-t-il un concert ce weekend ?",
+        "Je veux une activité relax après le travail."
+      ],
+      "historique": [
+        { "sortieId": "s101", "type": "CULTURE", "note": 4 },
+        { "sortieId": "s102", "type": "GASTRONOMIE", "note": 5 }
+      ]
+    },
+    {
+      "utilisateur": {
+        "id": "u002",
+        "age": 35,
+        "ville": "Sfax",
+        "interets": ["randonnée", "jeux", "voyages"]
+      },
+      "messages": [
+        "J'adore les sorties en plein air",
+        "Des idées de jeux pour adultes ?"
+      ],
+      "historique": [
+        { "sortieId": "s103", "type": "SPORT", "note": 5 },
+        { "sortieId": "s104", "type": "JEU", "note": 4 }
+      ]
+    },
+    {
+      "utilisateur": {
+        "id": "u003",
+        "age": 42,
+        "ville": "Ariana",
+        "interets": ["culture", "voyages", "photographie"]
+      },
+      "messages": [
+        "Je cherche une activité culturelle à Tunis",
+        "Un événement pour faire de belles photos ?"
+      ],
+      "historique": [
+        { "sortieId": "s105", "type": "CULTURE", "note": 5 },
+        { "sortieId": "s106", "type": "VOYAGE", "note": 5 }
+      ]
+    },
+    {
+      "utilisateur": {
+        "id": "u004",
+        "age": 19,
+        "ville": "Monastir",
+        "interets": ["jeux", "musique", "cinéma"]
+      },
+      "messages": [
+        "Y aura-t-il une soirée film ?",
+        "Je veux sortir avec des gens de mon âge."
+      ],
+      "historique": [
+        { "sortieId": "s107", "type": "JEU", "note": 4 },
+        { "sortieId": "s108", "type": "CULTURE", "note": 3 }
+      ]
+    },
+    {
+      "utilisateur": {
+        "id": "u005",
+        "age": 66,
+        "ville": "Bizerte",
+        "interets": ["balades", "découvertes", "culture"]
+      },
+      "messages": [
+        "Je préfère des sorties calmes.",
+        "Y a-t-il des événements pour seniors ?"
+      ],
+      "historique": [
+        { "sortieId": "s109", "type": "CULTURE", "note": 5 },
+        { "sortieId": "s110", "type": "SPORT", "note": 2 }
+      ]
+    },
+    
+        {
+          "utilisateur": {
+            "id": "fr001",
+            "age": 30,
+            "ville": "Lyon",
+            "pays": "France",
+            "interets": ["théâtre", "randonnée", "vin"]
+          },
+          "messages": [
+            "Des idées de spectacles ce soir à Lyon ?",
+            "J’aimerais une balade nature ce weekend."
+          ],
+          "historique": [
+            { "sortieId": "fr101", "type": "CULTURE", "note": 5 },
+            { "sortieId": "fr102", "type": "SPORT", "note": 4 }
+          ]
+        },
+        {
+          "utilisateur": {
+            "id": "be001",
+            "age": 27,
+            "ville": "Bruxelles",
+            "pays": "Belgique",
+            "interets": ["cinéma", "jeux", "gastronomie"]
+          },
+          "messages": [
+            "Y aura-t-il un festival de food trucks ?",
+            "Je cherche un jeu de rôle grandeur nature."
+          ],
+          "historique": [
+            { "sortieId": "be101", "type": "GASTRONOMIE", "note": 5 },
+            { "sortieId": "be102", "type": "JEU", "note": 4 }
+          ]
+        },
+        {
+          "utilisateur": {
+            "id": "ca001",
+            "age": 35,
+            "ville": "Montréal",
+            "pays": "Canada",
+            "interets": ["musique", "ski", "brunchs"]
+          },
+          "messages": [
+            "Y a-t-il un concert indie cette semaine ?",
+            "Une sortie pour faire du ski en groupe ?"
+          ],
+          "historique": [
+            { "sortieId": "ca101", "type": "CULTURE", "note": 5 },
+            { "sortieId": "ca102", "type": "SPORT", "note": 5 }
+          ]
+        },
+        {
+          "utilisateur": {
+            "id": "sn001",
+            "age": 40,
+            "ville": "Dakar",
+            "pays": "Sénégal",
+            "interets": ["danse", "histoire", "famille"]
+          },
+          "messages": [
+            "Des visites guidées pour les enfants ?",
+            "Je veux découvrir l’histoire de Dakar."
+          ],
+          "historique": [
+            { "sortieId": "sn101", "type": "CULTURE", "note": 5 },
+            { "sortieId": "sn102", "type": "FAMILLE", "note": 5 }
+          ]
+        },
+        {
+          "utilisateur": {
+            "id": "ma001",
+            "age": 22,
+            "ville": "Casablanca",
+            "pays": "Maroc",
+            "interets": ["cinéma", "photographie", "plage"]
+          },
+          "messages": [
+            "Une soirée film au bord de la mer ?",
+            "J’aimerais un atelier photo en plein air."
+          ],
+          "historique": [
+            { "sortieId": "ma101", "type": "CULTURE", "note": 4 },
+            { "sortieId": "ma102", "type": "ATELIER", "note": 5 }
+          ]
+        },
+        
+            {
+              "utilisateur": {
+                "id": "fr002",
+                "age": 65,
+                "ville": "Nice",
+                "pays": "France",
+                "interets": ["peinture", "balades", "jardinage"]
+              },
+              "messages": [
+                "Y a-t-il des activités calmes pour les seniors ?",
+                "Je cherche un atelier de peinture près de Nice."
+              ],
+              "historique": [
+                { "sortieId": "fr201", "type": "ATELIER", "note": 4 },
+                { "sortieId": "fr202", "type": "NATURE", "note": 5 }
+              ]
+            },
+            {
+              "utilisateur": {
+                "id": "ch001",
+                "age": 45,
+                "ville": "Genève",
+                "pays": "Suisse",
+                "interets": ["randonnée", "technologie", "littérature"]
+              },
+              "messages": [
+                "Des conférences tech cette semaine ?",
+                "Je suis partant pour une rando le samedi."
+              ],
+              "historique": [
+                { "sortieId": "ch101", "type": "TECH", "note": 5 },
+                { "sortieId": "ch102", "type": "SPORT", "note": 4 }
+              ]
+            },
+            {
+              "utilisateur": {
+                "id": "ci001",
+                "age": 19,
+                "ville": "Abidjan",
+                "pays": "Côte d’Ivoire",
+                "interets": ["danse", "concerts", "jeux vidéo"]
+              },
+              "messages": [
+                "C’est quand le prochain concert live ?",
+                "Un tournoi FIFA prévu ce week-end ?"
+              ],
+              "historique": [
+                { "sortieId": "ci101", "type": "CULTURE", "note": 5 },
+                { "sortieId": "ci102", "type": "JEU", "note": 5 }
+              ]
+            },
+            {
+              "utilisateur": {
+                "id": "tn001",
+                "age": 28,
+                "ville": "Sfax",
+                "pays": "Tunisie",
+                "interets": ["photo", "histoire", "musique"]
+              },
+              "messages": [
+                "Des sorties photo dans la médina ?",
+                "Je cherche un groupe pour visiter un musée."
+              ],
+              "historique": [
+                { "sortieId": "tn101", "type": "CULTURE", "note": 5 },
+                { "sortieId": "tn102", "type": "ATELIER", "note": 4 }
+              ]
+            },
+            {
+              "utilisateur": {
+                "id": "mg001",
+                "age": 33,
+                "ville": "Antananarivo",
+                "pays": "Madagascar",
+                "interets": ["écotourisme", "chants", "cinéma"]
+              },
+              "messages": [
+                "Y a-t-il une sortie nature avec guide ?",
+                "Je veux voir un vieux film malgache."
+              ],
+              "historique": [
+                { "sortieId": "mg101", "type": "NATURE", "note": 5 },
+                { "sortieId": "mg102", "type": "CULTURE", "note": 4 }
+              ]
+            },
+         
+            
+                {
+                  "utilisateur": {
+                    "id": "be003",
+                    "age": 52,
+                    "ville": "Bruxelles",
+                    "pays": "Belgique",
+                    "interets": ["théâtre", "gastronomie", "marche"]
+                  },
+                  "messages": [
+                    "Y a-t-il des spectacles en plein air cette semaine ?",
+                    "Je suis dispo pour une sortie gastronomique samedi soir."
+                  ],
+                  "historique": [
+                    { "sortieId": "be301", "type": "CULTURE", "note": 5 },
+                    { "sortieId": "be302", "type": "GASTRO", "note": 4 }
+                  ]
+                },
+                {
+                  "utilisateur": {
+                    "id": "sn002",
+                    "age": 27,
+                    "ville": "Dakar",
+                    "pays": "Sénégal",
+                    "interets": ["photographie", "rap", "skateboard"]
+                  },
+                  "messages": [
+                    "Quelqu’un veut faire une sortie photo au bord de la mer ?",
+                    "Y a-t-il un open mic ce mois-ci ?"
+                  ],
+                  "historique": [
+                    { "sortieId": "sn201", "type": "ART", "note": 5 },
+                    { "sortieId": "sn202", "type": "MUSIQUE", "note": 5 }
+                  ]
+                },
+                {
+                  "utilisateur": {
+                    "id": "ca005",
+                    "age": 38,
+                    "ville": "Montréal",
+                    "pays": "Canada",
+                    "interets": ["cinéma", "randonnée", "patin à glace"]
+                  },
+                  "messages": [
+                    "Une rando ce week-end dans les Laurentides ?",
+                    "Je cherche des sorties hivernales amusantes."
+                  ],
+                  "historique": [
+                    { "sortieId": "ca401", "type": "SPORT", "note": 4 },
+                    { "sortieId": "ca402", "type": "CULTURE", "note": 5 }
+                  ]
+                },
+                {
+                  "utilisateur": {
+                    "id": "cm003",
+                    "age": 22,
+                    "ville": "Yaoundé",
+                    "pays": "Cameroun",
+                    "interets": ["danse", "jeux vidéo", "voyages"]
+                  },
+                  "messages": [
+                    "Y a un groupe pour danser ce vendredi ?",
+                    "Je veux découvrir des coins sympa à Yaoundé."
+                  ],
+                  "historique": [
+                    { "sortieId": "cm301", "type": "LOISIR", "note": 5 },
+                    { "sortieId": "cm302", "type": "JEU", "note": 4 }
+                  ]
+                },
+                {
+                  "utilisateur": {
+                    "id": "ht001",
+                    "age": 47,
+                    "ville": "Port-au-Prince",
+                    "pays": "Haïti",
+                    "interets": ["musique", "artisanat", "spiritualité"]
+                  },
+                  "messages": [
+                    "Un atelier d’art haïtien est-il prévu bientôt ?",
+                    "J’aimerais participer à un concert traditionnel."
+                  ],
+                  "historique": [
+                    { "sortieId": "ht101", "type": "CULTURE", "note": 5 },
+                    { "sortieId": "ht102", "type": "ATELIER", "note": 5 }
+                  ]
+                },
+                {
+                    "utilisateur": {
+                      "id": "fr104",
+                      "age": 29,
+                      "ville": "Lyon",
+                      "pays": "France",
+                      "interets": ["randonnée", "photographie", "cinéma"]
+                    },
+                    "messages": [
+                      "Y a-t-il une sortie nature prévue ce week-end ?",
+                      "Je cherche des bons plans photo en ville."
+                    ],
+                    "historique": [
+                      { "sortieId": "fr301", "type": "SPORT", "note": 5 },
+                      { "sortieId": "fr302", "type": "CULTURE", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "mg008",
+                      "age": 35,
+                      "ville": "Antananarivo",
+                      "pays": "Madagascar",
+                      "interets": ["musique", "cuisine", "lecture"]
+                    },
+                    "messages": [
+                      "Est-ce qu’il y a un atelier cuisine locale ?",
+                      "J’aimerais participer à un club de lecture."
+                    ],
+                    "historique": [
+                      { "sortieId": "mg100", "type": "GASTRO", "note": 4 },
+                      { "sortieId": "mg101", "type": "CULTURE", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "ch007",
+                      "age": 44,
+                      "ville": "Genève",
+                      "pays": "Suisse",
+                      "interets": ["théâtre", "balades", "jardinage"]
+                    },
+                    "messages": [
+                      "Un spectacle ce mois-ci à ne pas rater ?",
+                      "Je veux rejoindre un groupe de marche."
+                    ],
+                    "historique": [
+                      { "sortieId": "ch500", "type": "CULTURE", "note": 5 },
+                      { "sortieId": "ch501", "type": "NATURE", "note": 4 }
+                    ]
+                  }, 
+                  {
+                    "utilisateur": {
+                      "id": "be001",
+                      "age": 27,
+                      "ville": "Bruxelles",
+                      "pays": "Belgique",
+                      "interets": ["cinéma", "jeux de société", "musique"]
+                    },
+                    "messages": [
+                      "Des idées de sorties musicales ce samedi ?",
+                      "J’adore les quiz en équipe, il y en aura bientôt ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "be300", "type": "JEU", "note": 4 },
+                      { "sortieId": "be301", "type": "CULTURE", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "tn002",
+                      "age": 39,
+                      "ville": "Sfax",
+                      "pays": "Tunisie",
+                      "interets": ["randonnée", "astronomie", "documentaires"]
+                    },
+                    "messages": [
+                      "Y aura-t-il une sortie d’observation des étoiles ?",
+                      "Je suis intéressé par les randonnées en petit groupe."
+                    ],
+                    "historique": [
+                      { "sortieId": "tn401", "type": "SPORT", "note": 5 },
+                      { "sortieId": "tn402", "type": "CULTURE", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "ca003",
+                      "age": 33,
+                      "ville": "Montréal",
+                      "pays": "Canada",
+                      "interets": ["théâtre", "cuisine", "débats"]
+                    },
+                    "messages": [
+                      "J’aimerais cuisiner en groupe, y a-t-il des ateliers ?",
+                      "Un café débat à venir ? J’adore échanger avec les gens."
+                    ],
+                    "historique": [
+                      { "sortieId": "ca200", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "ca201", "type": "CULTURE", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "fr004",
+                      "age": 24,
+                      "ville": "Lyon",
+                      "pays": "France",
+                      "interets": ["danse", "concerts", "photographie"]
+                    },
+                    "messages": [
+                      "Il y a un atelier photo ce weekend ?",
+                      "J’adore les concerts live, surtout en plein air."
+                    ],
+                    "historique": [
+                      { "sortieId": "fr301", "type": "CULTURE", "note": 4 },
+                      { "sortieId": "fr302", "type": "MUSIQUE", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "ma005",
+                      "age": 45,
+                      "ville": "Casablanca",
+                      "pays": "Maroc",
+                      "interets": ["lecture", "histoire", "balades"]
+                    },
+                    "messages": [
+                      "Je cherche une sortie culturelle avec une visite guidée.",
+                      "J’aime les balades tranquilles dans des lieux historiques."
+                    ],
+                    "historique": [
+                      { "sortieId": "ma120", "type": "CULTURE", "note": 5 },
+                      { "sortieId": "ma121", "type": "SOCIAL", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "be006",
+                      "age": 28,
+                      "ville": "Liège",
+                      "pays": "Belgique",
+                      "interets": ["randonnée", "sports", "voyages"]
+                    },
+                    "messages": [
+                      "Est-ce qu’il y a des sorties sportives prévues ?",
+                      "Je suis intéressé par des excursions en montagne."
+                    ],
+                    "historique": [
+                      { "sortieId": "be500", "type": "SPORT", "note": 5 },
+                      { "sortieId": "be501", "type": "SOCIAL", "note": 3 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "tn007",
+                      "age": 31,
+                      "ville": "Tunis",
+                      "pays": "Tunisie",
+                      "interets": ["histoire", "photographie", "gastronomie"]
+                    },
+                    "messages": [
+                      "Avez-vous des visites guidées dans des sites historiques ?",
+                      "Des sorties pour découvrir la cuisine locale ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "tn600", "type": "CULTURE", "note": 4 },
+                      { "sortieId": "tn601", "type": "GASTRO", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "ca008",
+                      "age": 26,
+                      "ville": "Québec",
+                      "pays": "Canada",
+                      "interets": ["art", "peinture", "rencontres"]
+                    },
+                    "messages": [
+                      "Je cherche une sortie pour discuter d’art.",
+                      "Est-ce qu’il y a des activités artistiques à venir ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "ca700", "type": "CULTURE", "note": 4 },
+                      { "sortieId": "ca701", "type": "SOCIAL", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "fr009",
+                      "age": 22,
+                      "ville": "Paris",
+                      "pays": "France",
+                      "interets": ["cinéma", "théâtre", "art"]
+                    },
+                    "messages": [
+                      "J’aimerais assister à un spectacle ce weekend.",
+                      "Il y a un film à ne pas manquer cette semaine ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "fr800", "type": "CULTURE", "note": 5 },
+                      { "sortieId": "fr801", "type": "MUSIQUE", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "ma010",
+                      "age": 29,
+                      "ville": "Rabat",
+                      "pays": "Maroc",
+                      "interets": ["randonnée", "bénévolat", "écologie"]
+                    },
+                    "messages": [
+                      "Je cherche des sorties écologiques ou solidaires.",
+                      "Y a-t-il des randonnées pour les bénévoles dans la région ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "ma900", "type": "SOCIAL", "note": 5 },
+                      { "sortieId": "ma901", "type": "SPORT", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "fr010",
+                      "age": 35,
+                      "ville": "Marseille",
+                      "pays": "France",
+                      "interets": ["randonnée", "cinéma", "voyages"]
+                    },
+                    "messages": [
+                      "Je cherche des sorties de groupe pour explorer la nature.",
+                      "Est-ce qu'il y a des événements dans le cinéma indépendant à venir ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "fr1000", "type": "SPORT", "note": 4 },
+                      { "sortieId": "fr1001", "type": "CULTURE", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "ch011",
+                      "age": 27,
+                      "ville": "Genève",
+                      "pays": "Suisse",
+                      "interets": ["musique", "théâtre", "rencontres sociales"]
+                    },
+                    "messages": [
+                      "Je suis à la recherche de concerts de musique classique.",
+                      "Y a-t-il des pièces de théâtre intéressantes cette semaine ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "ch1100", "type": "MUSIQUE", "note": 5 },
+                      { "sortieId": "ch1101", "type": "CULTURE", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "be012",
+                      "age": 30,
+                      "ville": "Bruxelles",
+                      "pays": "Belgique",
+                      "interets": ["histoire", "gastronomie", "arts"]
+                    },
+                    "messages": [
+                      "Je suis intéressé par une visite historique guidée.",
+                      "Est-ce qu’il y a des événements gastronomiques à Bruxelles cette semaine ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "be1200", "type": "CULTURE", "note": 4 },
+                      { "sortieId": "be1201", "type": "GASTRO", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "tn013",
+                      "age": 33,
+                      "ville": "Sfax",
+                      "pays": "Tunisie",
+                      "interets": ["sport", "nature", "technologie"]
+                    },
+                    "messages": [
+                      "Y a-t-il des sorties sportives ou en nature prévues cette semaine ?",
+                      "J’aimerais participer à un événement sur la technologie."
+                    ],
+                    "historique": [
+                      { "sortieId": "tn1300", "type": "SPORT", "note": 4 },
+                      { "sortieId": "tn1301", "type": "NATURE", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "ca014",
+                      "age": 26,
+                      "ville": "Montréal",
+                      "pays": "Canada",
+                      "interets": ["cinéma", "arts", "voyages"]
+                    },
+                    "messages": [
+                      "J'aimerais voir un film indépendant ce weekend.",
+                      "Des événements culturels autour du cinéma à venir ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "ca1400", "type": "CULTURE", "note": 5 },
+                      { "sortieId": "ca1401", "type": "SOCIAL", "note": 3 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "be015",
+                      "age": 40,
+                      "ville": "Liège",
+                      "pays": "Belgique",
+                      "interets": ["lecture", "cinéma", "randonnée"]
+                    },
+                    "messages": [
+                      "Je cherche des groupes de lecture à Liège.",
+                      "Y a-t-il des sorties à thème autour des livres ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "be1500", "type": "CULTURE", "note": 5 },
+                      { "sortieId": "be1501", "type": "SPORT", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "fr016",
+                      "age": 29,
+                      "ville": "Paris",
+                      "pays": "France",
+                      "interets": ["gastronomie", "voyages", "sports"]
+                    },
+                    "messages": [
+                      "Y a-t-il des événements gastronomiques à Paris cette semaine ?",
+                      "Est-ce qu'il y a des événements sportifs en extérieur ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "fr1600", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "fr1601", "type": "SPORT", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "ch017",
+                      "age": 34,
+                      "ville": "Zurich",
+                      "pays": "Suisse",
+                      "interets": ["technologie", "startups", "rencontres"]
+                    },
+                    "messages": [
+                      "Je cherche des événements liés aux nouvelles technologies.",
+                      "Est-ce qu'il y a des meetups pour les startups à Zurich ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "ch1700", "type": "TECHNOLOGIE", "note": 5 },
+                      { "sortieId": "ch1701", "type": "SOCIAL", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "tn018",
+                      "age": 38,
+                      "ville": "Tunis",
+                      "pays": "Tunisie",
+                      "interets": ["cinéma", "musique", "gastronomie"]
+                    },
+                    "messages": [
+                      "Je suis intéressé par des sorties cinéma en plein air.",
+                      "Est-ce qu'il y a des événements gastronomiques intéressants cette semaine ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "tn1800", "type": "CULTURE", "note": 4 },
+                      { "sortieId": "tn1801", "type": "GASTRO", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "ca019",
+                      "age": 25,
+                      "ville": "Toronto",
+                      "pays": "Canada",
+                      "interets": ["sport", "cinéma", "voyages"]
+                    },
+                    "messages": [
+                      "Je cherche des activités de plein air, surtout sportives.",
+                      "Des événements de cinéma à thème pour ce weekend ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "ca1900", "type": "SPORT", "note": 4 },
+                      { "sortieId": "ca1901", "type": "CULTURE", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "fr020",
+                      "age": 32,
+                      "ville": "Paris",
+                      "pays": "France",
+                      "interets": ["gastronomie", "voyages", "rencontres"]
+                    },
+                    "messages": [
+                      "Y a-t-il des sorties gastronomiques dans des restaurants à Paris ?",
+                      "Je cherche des dîners conviviaux avec des rencontres."
+                    ],
+                    "historique": [
+                      { "sortieId": "fr2000", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "fr2001", "type": "SOCIAL", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "it021",
+                      "age": 28,
+                      "ville": "Rome",
+                      "pays": "Italie",
+                      "interets": ["gastronomie", "culture", "musique"]
+                    },
+                    "messages": [
+                      "Est-ce qu'il y a des événements gastronomiques dans des restaurants avec musique live à Rome ?",
+                      "Je cherche une sortie pour découvrir des plats typiques dans un bon restaurant."
+                    ],
+                    "historique": [
+                      { "sortieId": "it2100", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "it2101", "type": "CULTURE", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "es022",
+                      "age": 45,
+                      "ville": "Madrid",
+                      "pays": "Espagne",
+                      "interets": ["gastronomie", "rencontres", "détente"]
+                    },
+                    "messages": [
+                      "Y a-t-il des dîners organisés dans des restaurants à Madrid ?",
+                      "J'aimerais faire une sortie gastronomique dans un restaurant avec une ambiance détendue."
+                    ],
+                    "historique": [
+                      { "sortieId": "es2200", "type": "GASTRO", "note": 4 },
+                      { "sortieId": "es2201", "type": "SOCIAL", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "de023",
+                      "age": 39,
+                      "ville": "Berlin",
+                      "pays": "Allemagne",
+                      "interets": ["gastronomie", "voyages", "expériences culturelles"]
+                    },
+                    "messages": [
+                      "Je cherche une sortie dans un restaurant offrant des plats typiques de Berlin.",
+                      "Est-ce qu'il y a des événements de dégustation de vin dans des restaurants à Berlin ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "de2300", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "de2301", "type": "CULTURE", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "us024",
+                      "age": 29,
+                      "ville": "New York",
+                      "pays": "États-Unis",
+                      "interets": ["gastronomie", "musique", "rencontres"]
+                    },
+                    "messages": [
+                      "Est-ce qu'il y a des dîners avec musique live dans des restaurants à New York ?",
+                      "Je cherche des restaurants avec une bonne ambiance pour des rencontres conviviales."
+                    ],
+                    "historique": [
+                      { "sortieId": "us2400", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "us2401", "type": "SOCIAL", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "fr025",
+                      "age": 34,
+                      "ville": "Lyon",
+                      "pays": "France",
+                      "interets": ["gastronomie", "rencontres", "détente"]
+                    },
+                    "messages": [
+                      "Je cherche une sortie dans un restaurant à Lyon avec une ambiance tranquille.",
+                      "Y a-t-il des restaurants qui organisent des soirées de dégustation de fromages et vins ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "fr2500", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "fr2501", "type": "SOCIAL", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "be026",
+                      "age": 38,
+                      "ville": "Bruxelles",
+                      "pays": "Belgique",
+                      "interets": ["gastronomie", "culture", "rencontres"]
+                    },
+                    "messages": [
+                      "Je voudrais participer à une soirée gastronomique à Bruxelles.",
+                      "Y a-t-il des restaurants avec des plats belges traditionnels et une ambiance conviviale ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "be2600", "type": "GASTRO", "note": 4 },
+                      { "sortieId": "be2601", "type": "CULTURE", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "pt027",
+                      "age": 41,
+                      "ville": "Lisbonne",
+                      "pays": "Portugal",
+                      "interets": ["gastronomie", "culture", "voyages"]
+                    },
+                    "messages": [
+                      "Je suis intéressé par un dîner portugais traditionnel à Lisbonne.",
+                      "Est-ce qu'il y a des événements gastronomiques dans des restaurants avec une touche locale ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "pt2700", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "pt2701", "type": "CULTURE", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "uk028",
+                      "age": 33,
+                      "ville": "Londres",
+                      "pays": "Royaume-Uni",
+                      "interets": ["gastronomie", "musique", "rencontres"]
+                    },
+                    "messages": [
+                      "Y a-t-il des restaurants à Londres qui organisent des événements de jazz avec un dîner ?",
+                      "Je cherche des restaurants où l'on peut passer une soirée musicale avec de la bonne nourriture."
+                    ],
+                    "historique": [
+                      { "sortieId": "uk2800", "type": "GASTRO", "note": 4 },
+                      { "sortieId": "uk2801", "type": "MUSIQUE", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "ch029",
+                      "age": 36,
+                      "ville": "Zurich",
+                      "pays": "Suisse",
+                      "interets": ["gastronomie", "rencontres", "détente"]
+                    },
+                    "messages": [
+                      "Je cherche une sortie gastronomique dans un restaurant haut de gamme à Zurich.",
+                      "Est-ce qu'il y a des restaurants avec des événements à thème comme des soirées fondue ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "ch2900", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "ch2901", "type": "SOCIAL", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "fr030",
+                      "age": 28,
+                      "ville": "Marseille",
+                      "pays": "France",
+                      "interets": ["gastronomie", "rencontres", "culture"]
+                    },
+                    "messages": [
+                      "Y a-t-il des restaurants qui proposent des plats méditerranéens à Marseille ?",
+                      "Je suis intéressé par un dîner avec une vue sur le port."
+                    ],
+                    "historique": [
+                      { "sortieId": "fr3000", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "fr3001", "type": "CULTURE", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "ca031",
+                      "age": 25,
+                      "ville": "Montréal",
+                      "pays": "Canada",
+                      "interets": ["gastronomie", "rencontres", "voyages"]
+                    },
+                    "messages": [
+                      "Je cherche des restaurants avec des spécialités canadiennes à Montréal.",
+                      "Est-ce qu'il y a des dîners sur une terrasse avec une belle vue ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "ca3100", "type": "GASTRO", "note": 4 },
+                      { "sortieId": "ca3101", "type": "SOCIAL", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "be032",
+                      "age": 39,
+                      "ville": "Anvers",
+                      "pays": "Belgique",
+                      "interets": ["gastronomie", "rencontres", "culture"]
+                    },
+                    "messages": [
+                      "Je voudrais essayer un restaurant avec une spécialité belge à Anvers.",
+                      "Y a-t-il des restaurants avec des soirées à thème sur la cuisine belge ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "be3200", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "be3201", "type": "CULTURE", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "es033",
+                      "age": 29,
+                      "ville": "Madrid",
+                      "pays": "Espagne",
+                      "interets": ["gastronomie", "rencontres", "musique"]
+                    },
+                    "messages": [
+                      "Y a-t-il des restaurants avec de la musique live à Madrid ?",
+                      "Je suis intéressé par un dîner espagnol avec des tapas."
+                    ],
+                    "historique": [
+                      { "sortieId": "es3300", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "es3301", "type": "MUSIQUE", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "it034",
+                      "age": 31,
+                      "ville": "Rome",
+                      "pays": "Italie",
+                      "interets": ["gastronomie", "culture", "voyages"]
+                    },
+                    "messages": [
+                      "Je cherche des restaurants qui proposent une cuisine italienne traditionnelle à Rome.",
+                      "Y a-t-il des événements de dégustation de vins dans des restaurants romains ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "it3400", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "it3401", "type": "CULTURE", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "fr035",
+                      "age": 26,
+                      "ville": "Paris",
+                      "pays": "France",
+                      "interets": ["gastronomie", "art", "rencontres"]
+                    },
+                    "messages": [
+                      "Je cherche des restaurants avec une ambiance artistique à Paris.",
+                      "Y a-t-il des événements autour de la cuisine fusion à Paris ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "fr3500", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "fr3501", "type": "ART", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "ca036",
+                      "age": 30,
+                      "ville": "Toronto",
+                      "pays": "Canada",
+                      "interets": ["gastronomie", "cuisine asiatique", "rencontres"]
+                    },
+                    "messages": [
+                      "Y a-t-il des restaurants asiatiques recommandés à Toronto ?",
+                      "Je cherche un endroit pour dîner avec une atmosphère calme et zen."
+                    ],
+                    "historique": [
+                      { "sortieId": "ca3600", "type": "GASTRO", "note": 4 },
+                      { "sortieId": "ca3601", "type": "SOCIAL", "note": 5 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "be037",
+                      "age": 40,
+                      "ville": "Bruxelles",
+                      "pays": "Belgique",
+                      "interets": ["gastronomie", "bière", "culture"]
+                    },
+                    "messages": [
+                      "Je voudrais découvrir des restaurants avec des spécialités belges et une bonne bière.",
+                      "Y a-t-il des événements gastronomiques autour de la bière à Bruxelles ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "be3700", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "be3701", "type": "CULTURE", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "es038",
+                      "age": 27,
+                      "ville": "Barcelone",
+                      "pays": "Espagne",
+                      "interets": ["gastronomie", "cuisine méditerranéenne", "rencontres"]
+                    },
+                    "messages": [
+                      "Je cherche des restaurants avec des plats méditerranéens à Barcelone.",
+                      "Y a-t-il des dîners avec des spectacles de flamenco dans des restaurants ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "es3800", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "es3801", "type": "SOCIAL", "note": 4 }
+                    ]
+                  },
+                  {
+                    "utilisateur": {
+                      "id": "it039",
+                      "age": 35,
+                      "ville": "Florence",
+                      "pays": "Italie",
+                      "interets": ["gastronomie", "vin", "culture"]
+                    },
+                    "messages": [
+                      "Je cherche des restaurants qui proposent des vins italiens à Florence.",
+                      "Y a-t-il des événements gastronomiques autour de la truffe en Toscane ?"
+                    ],
+                    "historique": [
+                      { "sortieId": "it3900", "type": "GASTRO", "note": 5 },
+                      { "sortieId": "it3901", "type": "CULTURE", "note": 4 }
+                    ]
+                  }]
+                  
+                                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                       
+        

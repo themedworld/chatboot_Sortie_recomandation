@@ -1,0 +1,90 @@
+ **Pour tester l’intention d’**aide :
+"J’ai besoin d’aide pour trouver une sortie ce week-end"
+
+"Pouvez-vous m’aider à choisir une activité à faire demain ?"
+
+Pour tester l’intention de question :
+"Où puis-je aller me détendre en nature près de Paris ?"
+
+"Quand a lieu le prochain concert de jazz à Lyon ?"
+
+"Comment participer à un atelier de cuisine ?"
+
+ Pour tester l’intention de préférence :
+"J’aime la musique live et les festivals"
+
+"Je cherche une sortie romantique pour samedi"
+
+"Je veux faire une balade en nature ce week-end"
+
+"J’aimerais une activité bien-être à Nice demain"
+
+ Pour tester la détection de thèmes et suggestions générales :
+"Je veux faire une sortie culturelle avec mes enfants"
+
+"Je cherche une activité originale à faire seul"
+
+"J’adore les expositions d’art et les musées"
+
+Scénarios pour tester date / lieu / thème combinés :
+"Je veux faire du yoga dimanche matin à Marseille"
+
+"Une activité nocturne à Paris pour ce soir ?"
+
+"Un atelier créatif ou un spectacle enfants demain ?"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Actuellement, je travaille sur le développement du backend du chatbot intelligent pour la plateforme de recommandation de sorties. J’ai mis en place une API Flask qui analyse les messages utilisateurs en français avec spaCy pour détecter les intentions, les thèmes d’intérêt, les lieux et les dates.
+
+Le système est capable de :
+
+Répondre automatiquement aux demandes générales, préférences ou questions des utilisateurs.
+
+Extraire les mots-clés utiles pour filtrer ou recommander des sorties depuis notre base de données.
+
+Fournir des recommandations personnalisées basées soit sur des préférences déclarées, soit sur un historique via un fichier recommandations.pkl.

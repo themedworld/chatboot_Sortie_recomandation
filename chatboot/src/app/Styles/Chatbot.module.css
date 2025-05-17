@@ -1,0 +1,122 @@
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  max-width: 850px;
+  margin: auto;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2980b9;
+}
+
+.chatContainer {
+  border: 1px solid #dfe6e9;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #ecf0f1;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.message {
+  margin-bottom: 1rem;
+}
+
+.userMessage {
+  text-align: right;
+  color: #2980b9;
+}
+
+.assistantMessage {
+  text-align: left;
+  color: #27ae60;
+}
+
+.messageContent {
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 10px;
+  background-color: #fdfde4;
+  max-width: 80%;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.inputForm {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.inputField {
+  flex: 1;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.submitButton {
+  padding: 0.7rem 1.2rem;
+  margin-left: 0.5rem;
+  background-color: #f1c40f;
+  color: #2c3e50;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #f39c12;
+}
+
+.submitButton:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.typingIndicator span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #95a5a6;
+  border-radius: 50%;
+  margin: 0 2px;
+  animation: blink 1.4s infinite both;
+}
+
+.typingIndicator span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typingIndicator span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes blink {
+  0% { opacity: .2; }
+  20% { opacity: 1; }
+  100% { opacity: .2; }
+}
+.userMessage .messageContent {
+  background-color: #d6ecfa;
+}
+
+.assistantMessage .messageContent {
+  background-color: #d5f5e3;
+}

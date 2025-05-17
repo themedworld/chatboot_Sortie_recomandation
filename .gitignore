@@ -1,0 +1,4 @@
+# Ignorer node_modules dans le frontend
+chatboot/node_modules/
+
+
